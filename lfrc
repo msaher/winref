@@ -1,0 +1,9 @@
+
+# windows opener
+cmd open ${{
+    case $(file --mime-type -Lb $f) in
+        text/*) setsid $EDITOR $fx;;
+        *) for f in $fx; do s $f & done ;;
+    esac
+}}
+
