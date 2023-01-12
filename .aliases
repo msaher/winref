@@ -1,0 +1,6 @@
+#!/bin/sh
+
+alias e='explorer.exe .'
+alias nvid='neovide.exe --wsl'
+alias cls="clear" # cursed
+alias mountd='sudo mount -t drvfs D: /mnt/d'
